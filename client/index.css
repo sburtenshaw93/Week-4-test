@@ -1,0 +1,131 @@
+body {
+     background-image: url("https://images.unsplash.com/photo-1511207538754-e8555f2bc187?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+     background-size: 100%;
+     scroll-behavior: smooth;
+
+}
+
+#compliment-button {
+    margin-left: 3%;
+    color: #2b370b;
+    height: 250px;
+    width: 250px;
+    border-radius: 10%;
+    border-style: double;
+    border-width: 10px;
+    border-color: #2c3f01;
+    background-color: #efefef;
+    font-size: 40px;
+
+}
+#fortune-cookie {
+    margin-left: 3%;
+    margin-top: 16%;
+    color: #2b370b;
+    height: 250px;
+    width: 250px;
+    border-radius: 10%;
+    border-style: double;
+    border-width: 10px;
+    border-color: #2c3f01;
+    background-color: #efefef;
+    font-size: 50px;
+
+
+}
+#Zodiac {
+    margin-top: 16%;
+    margin-left: 4%;
+    color: #2b370b;
+    height: 250px;
+    width: 250px;
+    border-radius: 10%;
+    border-style: double;
+    border-width: 10px;
+    border-color: #2c3f01;
+    background-color: #efefef;
+    font-size: 50px;
+
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #quote {
+    margin-top: 0%;
+    margin-left: 4%;
+    color: #2b370b;
+    height: 250px;
+    width: 250px;
+    border-radius: 10%;
+    border-style: double;
+    border-width: 10px;
+    border-color: #2c3f01;
+    background-color: #efefef;
+    font-size: 50px;
+
+  }
+  textarea {
+    height: 220px;
+    width: 250px;
+    border-radius: 10%;
+    position: relative;
+    top: 128px;
+    border-style: double;
+    border-color: #2b370b;
+    border-width: 5px;
+    font-size: 25px;
+
+  }
+.quote-post {
+  color: white;
+  margin-left: 5%;
+  font-size: 25px;
+}
+
+#house {
+  margin-top: 16%;
+    margin-left: 4%;
+    color: #2b370b;
+    height: 250px;
+    width: 250px;
+    border-radius: 10%;
+    border-style: double;
+    border-width: 10px;
+    border-color: #2c3f01;
+    background-color: #efefef;
+    font-size: 50px;
+
+}

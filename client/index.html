@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <link src="stylesheet" href="index.css"/>
   <head>
     <title>Back End Assessment</title>
+    <link rel="stylesheet" href="index.css">
   </head>
   <body class="container">
-    <button id="complimentButton">Get a compliment</button>
+    <button id="compliment-button">Get a compliment</button>
+
+    <div id="fortune">
+    <button id="fortune-cookie">Fortune cookie</button>
+
+  </div>
+  <button id="Zodiac">Zodiac</button>
+
+  <!-- The Modal -->
+  <div id="zodiac-modal" class="modal">
+  
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div>
+        <label for="zodiac-enter">Enter Birthday Here</label>
+        <input id="zodiac-enter">
+        <button id="submit">Submit</button>
+      </div>
+    </div>
+  
+  </div>
+  <div>
+    <button id="quote">Favorite Quote</button>
+    <textarea id="favorite-quote"></textarea>
+    <button id="quote-submit">Submit</button>
+  </div>
+  <div id="qoutes">
+
+  </div>
+  <div id="hogwarts">
+    <button id="house">Sorting Hat</button>
+
+  </div>
+
+
+  
+  
+    
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
